@@ -1,0 +1,73 @@
+.midsection-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .midsection-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .cupboard {
+    background-color: #f9a8d4;
+    padding: 1;
+  }
+
+  .cupboard {
+    background-color: #f9a8d4;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cupboard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cupboard-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  
+  .cupboard-content {
+    margin-top: 1rem;
+  }
+  
+  .cupboard-button {
+    background-color: #ec4899;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .drawer {
+    margin-top: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: black;
+  }
+  
+  .drawer p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .drawer a {
+    text-decoration: none;
+    color: #2563eb;
+  }
+  
+  .drawer a:hover {
+    text-decoration: underline;
+  }

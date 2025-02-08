@@ -1,0 +1,40 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fbcfe8;
+  }
+  
+  .flower-vase {
+    position: relative;
+  }
+  
+  .vase {
+    background-color: #22c55e;
+    width: 2rem;
+    height: 4rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .heart {
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    animation: bounce 1s infinite;
+  }
+  
+  .music-icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }

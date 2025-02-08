@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import MidSection from "./MidSection";
-import Footer from "./Footer";
-
+import Header from "./components/Header";
+import MidSection from "./components/MidSection";
+import Footer from "./components/Footer";
+import './App.css';
 
 function App() {
   return (
-   <div>
     <div className="min-h-screen flex flex-col">
       {/* Header Section */}
       <Header />
@@ -18,7 +17,6 @@ function App() {
 
       {/* Footer Section */}
       <Footer />
-    </div>
     </div>
   );
 }
